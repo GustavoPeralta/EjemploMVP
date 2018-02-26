@@ -26,6 +26,7 @@ public class LoginPresenter implements LoginInterfaces.ILoginPresenter, LoginInt
     @Override
     public void onLoginCorrect() {
         view.hideProgress();
+        view.goToNext();
     }
 
     @Override
